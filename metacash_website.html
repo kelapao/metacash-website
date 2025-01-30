@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaCash - Tu Aliado Financiero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background: #0056b3;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .feature {
+            width: 30%;
+            padding: 10px;
+            background: #eef;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .contact-form, .survey-form {
+            margin-top: 30px;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a MetaCash</h1>
+        <p>La mejor plataforma para que los estudiantes gestionen su ahorro y financiamiento.</p>
+        <a href="#contact" class="cta-button">¡Quiero Saber Más!</a>
+
+        <div class="features">
+            <div class="feature">
+                <h3>💰 Ahorro Inteligente</h3>
+                <p>Redondeo de compras y metas personalizadas.</p>
+            </div>
+            <div class="feature">
+                <h3>📚 Educación Financiera</h3>
+                <p>Aprende a manejar tu dinero con nuestros cursos.</p>
+            </div>
+            <div class="feature">
+                <h3>🛍️ Tienda Financiera</h3>
+                <p>Compra lo que necesitas con opciones de financiamiento.</p>
+            </div>
+        </div>
+
+        <div id="contact" class="contact-form">
+            <h2>¡Déjanos tus datos para más información!</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Nombre" required><br>
+                <input type="email" name="email" placeholder="Correo Electrónico" required><br>
+                <textarea name="message" placeholder="¿Cómo podemos ayudarte?" rows="4"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div id="survey" class="survey-form">
+            <h2>Encuesta de Opinión</h2>
+            <form action="#" method="POST">
+                <p>¿Te gustaría usar MetaCash?</p>
+                <input type="radio" name="interest" value="Sí"> Sí
+                <input type="radio" name="interest" value="No"> No<br>
+                <p>¿Qué funcionalidad te interesa más?</p>
+                <input type="checkbox" name="feature" value="Ahorro Inteligente"> Ahorro Inteligente<br>
+                <input type="checkbox" name="feature" value="Educación Financiera"> Educación Financiera<br>
+                <input type="checkbox" name="feature" value="Tienda Financiera"> Tienda Financiera<br>
+                <textarea name="feedback" placeholder="Déjanos tu comentario..." rows="4"></textarea><br>
+                <button type="submit">Enviar Encuesta</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
